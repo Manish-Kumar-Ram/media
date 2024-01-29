@@ -1,0 +1,196 @@
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    it is a animation
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background: #000;
+      min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+        .container{
+            display: flex;
+            justify-content: space-between;
+     
+            width: 80%;
+            padding: 5rem 8rem;
+       
+        }
+        .container img{
+            width: 30%;
+            transform-origin: center;
+            transform: perspective(800px) rotateY(20deg);
+            transition: 0.5s;
+            box-shadow: 0px 0px 8px grey;
+            border-radius: 5px;
+
+        }
+        .container:hover img{
+            opacity: 0.3;
+        }
+        .container img:hover {
+            transform: perspective(800px) rotateY(0deg);
+            opacity: 1;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <img src="il_fullxfull.2947254491_3h0z.webp" alt="">
+        <img src="il_fullxfull.4341390936_pe43.webp" alt="">
+        <img src="81M1evI0qJL._UX679_.jpg" alt="">
+    </div>
+</body>
+</html> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap');
+
+      body{
+        margin: 0;
+        padding: 0;
+      
+
+
+      }
+      h1,h2,h3,h4,h5,h6,p,span,button{
+        font-family: 'Roboto', sans-serif;
+      }
+      section{
+       height: 20vh;
+background-color: white;
+
+   
+    }
+main{
+    background-color: #e9c744;
+min-height: 80vh;
+display: flex;
+flex-wrap: wrap;
+padding:  0 10rem;
+}
+.container{
+    width: 50%;
+    text-align: center;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+main >.container{
+ width: 40%;
+    text-align: center;
+    margin-top: 20px;
+}
+img{
+   width: 40%;
+
+    transform: translateY(-10vh);
+    padding:  0 10px;
+    box-sizing: border-box;
+}
+.container >h3{
+    font-size: 1.85rem;
+}
+
+.container> h6{
+font-size: 0.8rem;
+line-height: 1.5rem;
+padding-left: 10px;
+}
+ button{
+    background-color: black;
+    text-transform: uppercase;
+    color: white;
+  
+    padding: 10px 40px;
+   font-size: x-small;
+    border: none;
+    letter-spacing: 1.5pt;
+    transition: all 0.3s ease-in-out;
+    border: 1px solid black;
+}
+.underline{
+    text-decoration: underline;
+}
+button:hover{
+    background-color: #e9c744;
+    color: black;
+    border: 1px solid black;
+}
+img:hover{
+    transform: translateY(-10vh) scale(1.1);
+}
+@media  screen and (min-width: 800px)  and (max-width:1200px){
+    main{
+        padding: 0 3rem;
+
+    }
+
+}
+@media screen and (min-width: 450px) and (max-width:800px) {
+    main{
+        padding: 0 1rem;
+    }
+    img{
+        width: 60%;
+
+
+    }
+    .container{
+        width: 100%;
+        margin-top: 0px;
+    }
+}
+@media only screen and (max-width: 450px) {
+    main{
+        padding:  0 1rem;
+    }
+    img{
+        width: 100%;
+    }
+    .container{
+        width: 100%;
+        margin-top: 0px;
+    }
+    
+}
+
+
+
+
+      
+      
+        
+    </style>
+</head>
+<body>
+<section></section>
+    <main>
+        <img src="pexels-chevanon-photography-302899.jpg" alt="">
+        <div class="container">
+<h3>Certified Coffee <br>
+     Courses</h3>
+<h6>
+  Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, quia nulla. Suscipit, vel repellat. Nesciunt, iure laudantium. Sed totam, dolor debitis possimus consequuntur repellat porro laudantium, tenetur repudiandae voluptatibus dolorem ipsum. Voluptas et perferendis facilis est exercitationem? Ratione, accusantium.
+
+
+
+</h6>
+<h6>Image From <span class="underline">  pixels </span>  </h6>
+<button>learn more</button>
+        </div>
+    </main>
+    
+</body>
+</html>
